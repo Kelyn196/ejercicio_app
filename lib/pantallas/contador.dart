@@ -13,12 +13,12 @@ class _ContadorState extends State<Contador> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Contador')),
+      appBar: AppBar(title: Text('Contador.')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Cantidad de clicks'),
+            Text('Numero de clicks realizados'),
             Text(
               '$clickcontador',
               style: TextStyle(fontSize: 150, fontWeight: FontWeight.w100),
