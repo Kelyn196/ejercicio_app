@@ -49,6 +49,15 @@ class _ContadorState extends State<Contador> {
             },
             child: Icon(Icons.exposure_minus_1),
           ),
+          const SizedBox(width: 10),
+          FloatingActionButton(
+            onPressed: () {
+              setState(() {
+                clickcontador = 0; // Resetea el contador
+              });
+            },
+            child: const Icon(Icons.refresh),
+          ),
         ],
       ),
       //floatingActionButton: FloatingActionButton(
